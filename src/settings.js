@@ -1,6 +1,6 @@
 module.exports = {
 
-  title: 'Vue Admin Template',
+  title: 'sili-devops',
 
   /**
    * @type {boolean} true | false
