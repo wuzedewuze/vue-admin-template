@@ -37,6 +37,7 @@ module.exports = {
       errors: true
     },
     // 移除mock,包括proxy和after参数
+    // 参考链接:https://panjiachen.github.io/vue-element-admin-site/zh/guide/essentials/mock-api.html#%E7%A7%BB%E9%99%A4
     // proxy: {
     //   // change xxx-api/login => mock/login
     //   // detail: https://cli.vuejs.org/config/#devserver-proxy
