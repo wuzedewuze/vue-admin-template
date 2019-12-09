@@ -13,8 +13,10 @@ export function isExternal(path) {
 /**
  * @param {string} str
  * @returns {Boolean}
+ * 这里对用户名的验证,先不设置,多有都返回true
+ *   // const valid_map = ['admin', 'editor']
+ * // return valid_map.indexOf(str.trim()) >= 0
  */
 export function validUsername(str) {
-  const valid_map = ['admin', 'editor']
-  return valid_map.indexOf(str.trim()) >= 0
+  return (str !== null || str !== '')
 }
