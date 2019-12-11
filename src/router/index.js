@@ -49,9 +49,9 @@ export const constantRoutes = [
     redirect: '/dashboard',
     children: [{
       path: 'dashboard',
-      name: 'Dashboard',
+      name: '首页',
       component: () => import('@/views/dashboard/index'),
-      meta: { title: 'Dashboard', icon: 'dashboard' }
+      meta: { title: '首页', icon: 'dashboard' }
     }]
   },
 
@@ -59,14 +59,14 @@ export const constantRoutes = [
     path: '/user/manager',
     component: Layout,
     redirect: '/user/manager/userlist',
-    name: 'userManager',
-    meta: { title: 'userManager', icon: 'peoples' },
+    name: '用户管理',
+    meta: { title: '用户管理', icon: 'peoples' },
     children: [
       {
         path: 'userlist',
-        name: 'userlist',
+        name: '用户列表',
         component: () => import('@/views/user/index'),
-        meta: { title: 'userlist', icon: 'peoples' }
+        meta: { title: '用户列表', icon: 'peoples' }
       }
     ]
   },
