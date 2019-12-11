@@ -74,7 +74,8 @@ export default {
       total: 0,
       page: 1,
       list: null,
-      mypageSizes: 15  //需要设置和后端相同
+      // 需要设置和后端相同
+      mypageSizes: 15
     }
   },
   created() {
